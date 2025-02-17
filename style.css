@@ -51,16 +51,19 @@ body {
     text-align: center;
     align-self: center;
     overflow: hidden;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.log-in{
+.section-box .log-in{
     background-color: white;
     font-size: larger;
     font-weight: bold;
     cursor: pointer;
 }
 
-.sign-up{
+.section-box .sign-up{
     background-color: lightgrey;
     font-size: larger;
     font-weight: bold;
