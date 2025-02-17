@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     background-color: white;
     width: 30%;
-    height: 50%;
+    height: max-content;
     border: 0px solid;
     border-radius: 10px;
     align-items: center;   
@@ -39,7 +39,7 @@ body {
 
 .section-box {
     width: 100%;
-    height: 15%;
+    height: 40px;
     display:flex;
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
@@ -47,20 +47,21 @@ body {
 
 .section-title {
     width: 50%;
+    color: #055876;
     text-align: center;
     align-self: center;
     overflow: hidden;
 }
 
 .log-in{
-    background-color: yellow;
+    background-color: white;
     font-size: larger;
     font-weight: bold;
     cursor: pointer;
 }
 
 .sign-up{
-    background-color: blue;
+    background-color: lightgrey;
     font-size: larger;
     font-weight: bold;
     cursor: pointer;
@@ -81,15 +82,17 @@ form {
     width: 100%;
 }
 
-.form h2,input {
+.form input {
     width: 100%;
-    margin: 10px 0px;
+    font-size: large;
+    margin: 5px 0px;
     box-sizing: border-box;
     max-width: 100%;
 }
 
 .form p {
-    margin: 10px 0px 0px ;
+    margin: 15px 0px 0px ;
+    font-size: medium;
 }
 
 .form input {
@@ -101,11 +104,13 @@ form {
 button {
     border: 0px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #055876;
     padding: 10px 20px;
     margin: 20px 0px;
     justify-items: center;
+    cursor: pointer;
 }
 button h3{
     margin: 0px;
+    color: white;
 }
