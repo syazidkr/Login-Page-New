@@ -117,6 +117,12 @@ button h3{
     margin: 0px;
     color: white;
 }
+
+.form.log-in {
+    display: flex;
+}
+
 .form.sign-up {
     display: none;
 }
+
