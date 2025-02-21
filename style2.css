@@ -28,11 +28,63 @@ body {
 
 .navbar {
     display: flex;
-    flex-direction: row;
-    background-color: red;
+    flex-direction: column;
+    background-color: #055876;
+    color: white;
     width: 100%;
     height: 100%
 }
 
+.img-placeholder {
+    display: inline-block;
+    margin: 30px;
+}
 
+.content {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
 
+li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td div {
+    height: 20px;
+    width: 100px
+}
+
+.dragable-value {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 80%;
+    background-color: white;
+    margin: 10px 0px 50px 0px;
+    padding : 20px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: sandybrown;
+    padding: 7px;
+    border-radius: 2px;
+    margin: 5px;
+    height: max-content;
+    cursor: pointer;
+}
