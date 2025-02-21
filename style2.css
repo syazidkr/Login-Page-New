@@ -37,7 +37,13 @@ body {
 
 .img-placeholder {
     display: inline-block;
-    margin: 30px;
+    margin: 25px;
+}
+
+img {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
 }
 
 .content {
