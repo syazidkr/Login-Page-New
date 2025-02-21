@@ -32,6 +32,7 @@ body {
     background-color: #055876;
     color: white;
     width: 100%;
+    max-width: 940px;
     height: 100%
 }
 
@@ -89,8 +90,27 @@ td div {
 .card {
     background-color: sandybrown;
     padding: 7px;
-    border-radius: 2px;
+    border-radius: 4px;
     margin: 5px;
     height: max-content;
     cursor: pointer;
+}
+
+/* Test Drag */
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    margin: 10px;
+    cursor: grab;
+}
+.dropzone {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
